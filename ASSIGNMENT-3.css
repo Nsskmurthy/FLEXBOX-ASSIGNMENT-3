@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: cadetblue;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .centered-div {
+    width: 200px;
+    height: 200px;
+    background-color: #30ffc8;
+    text-align: center;
+    border: 25px solid white;
+    border-radius: 5%;
+  }
+
+  img{
+      margin-top: 45px;
+  }
+  .content{
+     margin-top: 60px;
+     background-color: white;
+     height: 120px;
+     width: 249.4px;
+     margin-left: -25px;
+     border-radius: 5%;
+     padding-left: 1px;
+      
+  }
+
+@media screen and (max-width:576px) {
+  
+  body {
+    background-color: rgb(95, 160, 126);
+  }
+
+}
